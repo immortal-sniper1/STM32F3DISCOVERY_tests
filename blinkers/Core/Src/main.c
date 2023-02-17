@@ -103,6 +103,10 @@ int main(void)
 	/* USER CODE BEGIN WHILE */
 	while (1)
 	{
+		int8_t i;
+
+
+
 
 		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_9);
 		HAL_Delay(500);
@@ -112,6 +116,69 @@ int main(void)
 		HAL_Delay(500);
 		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_15);
 		HAL_Delay(500);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_15);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_13);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_11);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_9);
+		HAL_Delay(1100);
+
+
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_8);
+		HAL_Delay(500);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_10);
+		HAL_Delay(500);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_12);
+		HAL_Delay(500);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_14);
+		HAL_Delay(500);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_14);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_12);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_10);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
+		HAL_Delay(1100);
+
+        //spiral starting
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_8);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_9);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_10);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_11);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_12);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_13);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_14);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_15);
+		HAL_Delay(200);
+        //spiral stopeing
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_8);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_9);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_10);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_11);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_12);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_13);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_14);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin( GPIOE, GPIO_PIN_15);
+		HAL_Delay(200);
+
+
 
 		/* USER CODE END WHILE */
 
